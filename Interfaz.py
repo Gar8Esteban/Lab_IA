@@ -1,14 +1,12 @@
 import tkinter as tk
-from tkinter import Tk, Frame, Canvas, filedialog, messagebox, Scale, Button
-from tkinter.constants import ALL, HORIZONTAL
 
 
-class Guide(tk.Tk):
-    def __int__(self):
+class gui(tk.Tk):
+    def __init__(self):
         super().__init__()
-        self.title('Draw')
+        self.title('Algoritmo')
 
 
 if __name__ == '__main__':
-    guide = Guide()
+    guide = gui()
     guide.mainloop()
